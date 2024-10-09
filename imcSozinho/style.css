@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #6e9987;
+    --light-gray :#ccd2b1;
+    --light-black : #2d3839;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    height: 800px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.tittle {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid var(--light-black);
+}
+
+form {
+    text-align: center;
+    color: var(--light-gray);
+    
+}
+
+label {
+    font-size: 2rem; 
+    margin: 2rem;
+    border-bottom: 2px solid var(--light-gray) ;
+    
+    
+}
+
+input {
+    padding: 15px;
+    margin-top: 3rem;
+}
+
+button {
+    margin-top: 3rem;
+    padding: 2rem 10rem;
+    font-size: 1.5rem;
+    color: var(--light-black);
+    background-color: var(--light-gray);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.invisibleElement {
+    color: var(--primary-color);
+}
+
+.resultado {
+    margin-top: 60px;    
+    font-size: 4rem;
+    
+}
+
+.container-resultado {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    height: 15rem;
+    width: 26rem;
+    background-color: var(--light-gray);
+    border-radius: 1rem;
+    border: 2px solid var(--light-black);
+    color: var(--light-black);
+
+}
+
+
